@@ -1,0 +1,67 @@
+WEBVTT
+
+00:00:04.520 --> 00:00:07.610
+Hi thank you for taking my C-Sharp basic's course.
+
+00:00:07.770 --> 00:00:12.990
+Let me quickly give you an overview of what you're going to learn and how to structure a discourse in
+
+00:00:12.990 --> 00:00:13.680
+the first section.
+
+00:00:13.710 --> 00:00:17.100
+I'm going to talk about fundamentals of C-Sharp and Duckman.
+
+00:00:17.310 --> 00:00:21.820
+One of the questions that a lot of beginners ask is What is the difference between C-Sharp and talkback
+
+00:00:21.860 --> 00:00:22.060
+.
+
+00:00:22.230 --> 00:00:23.700
+So I want to cover that.
+
+00:00:23.700 --> 00:00:30.570
+I'm also going to talk about C-L our assemblies name spaces and code and stuff like that.
+
+00:00:30.690 --> 00:00:36.690
+Then over the next two sections I'm going to talk about types and want to talk about primitive and primitive
+
+00:00:36.690 --> 00:00:37.630
+types.
+
+00:00:37.840 --> 00:00:43.290
+Now I this point you still cannot write any C-Sharp program but you have designed a number of quizzes
+
+00:00:43.560 --> 00:00:49.650
+to help you reinforce what you want to learn then from Section 4 where I talk about control flow.
+
+00:00:49.740 --> 00:00:52.450
+You're going to start writing simple programs.
+
+00:00:52.680 --> 00:00:57.150
+And from that section on whereas in every section you're going to learn something new about C-Sharp
+
+00:00:57.390 --> 00:01:00.390
+and you get to write more interesting programs.
+
+00:01:00.390 --> 00:01:04.860
+And finally I'm going to conclude this course with a section on debugging.
+
+00:01:04.860 --> 00:01:07.060
+So I'm going to show you some of the tools we have.
+
+00:01:07.290 --> 00:01:11.690
+So when you have both in your code you know how to find them and get rid of them.
+
+00:01:11.700 --> 00:01:16.860
+I'm also going to talk about some good programming practices that help you write better and more reliable
+
+00:01:16.860 --> 00:01:17.370
+code.
+
+00:01:17.670 --> 00:01:18.790
+So we have a lot to cover.
+
+00:01:18.840 --> 00:01:20.460
+And let's get started.

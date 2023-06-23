@@ -1,0 +1,16 @@
+WEBVTT
+
+00:00:04.630 --> 00:00:08.770
+OK this section is going to be the first step in your journey to learn C-sharp.
+
+00:00:09.030 --> 00:00:14.130
+So I'm going to introduce you to variables and Konstanz I'm going to talk about various data types and
+
+00:00:14.240 --> 00:00:18.840
+type conversions and what I talk about scope and overflowing.
+
+00:00:19.110 --> 00:00:22.760
+And finally I'm going to talk about various operators we have in C-sharp.
+
+00:00:22.920 --> 00:00:24.410
+So let's go.

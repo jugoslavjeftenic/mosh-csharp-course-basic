@@ -1,0 +1,382 @@
+WEBVTT
+
+00:00:02.240 --> 00:00:07.850
+OK we are going to start our journey by learning about variables and constants.
+
+00:00:07.860 --> 00:00:13.950
+Let's start by two definitions a variable is a name that we give to a storage location in memory where
+
+00:00:13.950 --> 00:00:20.400
+we can store a value and it can stand in any immutable value that is a value that we know at compile
+
+00:00:20.400 --> 00:00:24.560
+time and that value cannot change throughout the life of the application.
+
+00:00:24.960 --> 00:00:26.550
+Why do we use Konstanz.
+
+00:00:26.580 --> 00:00:30.000
+The reason for that is to create safety in our application.
+
+00:00:30.000 --> 00:00:35.440
+Imagine you're creating an application that involves some mathematical computation around circles.
+
+00:00:35.880 --> 00:00:42.450
+We have this number called P which is three point 1 4 and we use that to calculate the area of a circle
+
+00:00:42.460 --> 00:00:42.890
+.
+
+00:00:43.500 --> 00:00:45.960
+That number should always be the same.
+
+00:00:45.960 --> 00:00:49.230
+We don't want to accidentally change that in our program.
+
+00:00:49.230 --> 00:00:54.270
+If we accidentally change that everything is going to blow up in terms of the results the program produces
+
+00:00:54.270 --> 00:00:55.430
+.
+
+00:00:55.500 --> 00:00:58.120
+So we declare that number as a constant.
+
+00:00:58.860 --> 00:01:05.370
+And this way we create safety in our application in C-sharp to declare a variable.
+
+00:01:05.370 --> 00:01:14.880
+We start with a type followed by an identifier and finally semicolon here and represent integer which
+
+00:01:14.880 --> 00:01:21.210
+is a number between minus 2 billion and plus 2 billion later in this video we show you all the primitive
+
+00:01:21.210 --> 00:01:23.460
+types that you need to know.
+
+00:01:23.460 --> 00:01:29.880
+Also not that C-Sharp is a case sensitive language which means in this case these two identifiers are
+
+00:01:29.880 --> 00:01:30.690
+different.
+
+00:01:30.690 --> 00:01:38.060
+One has Laura case and one has uppercase and when declaring a variable we can optionally assign it to
+
+00:01:38.060 --> 00:01:40.560
+value like what you see here.
+
+00:01:40.650 --> 00:01:45.900
+You don't have to but there is one thing you need to know about variables and that is you cannot use
+
+00:01:45.900 --> 00:01:48.750
+a variable unless you initialize it.
+
+00:01:48.750 --> 00:01:55.020
+So let's say if I declared this number here and I decide to displayed on the console my application
+
+00:01:55.020 --> 00:01:56.550
+will not become part.
+
+00:01:56.730 --> 00:02:00.700
+I have to assign it a value before I can use it before I can read it.
+
+00:02:00.750 --> 00:02:06.930
+I will show you that later when we jump to coding to declare Konstam we start with the key word Konst
+
+00:02:06.930 --> 00:02:07.500
+.
+
+00:02:07.500 --> 00:02:10.800
+Next we have the data type and an identifier.
+
+00:02:10.800 --> 00:02:13.770
+And here we have to initialize it with some value.
+
+00:02:13.770 --> 00:02:17.620
+We cannot define a constant without setting its value.
+
+00:02:18.870 --> 00:02:21.750
+There are a few things you need to know about identifiers.
+
+00:02:21.750 --> 00:02:24.940
+First one is that an identifier cannot start with a number.
+
+00:02:25.140 --> 00:02:28.030
+So you cannot have an identifier like the one you see here.
+
+00:02:28.110 --> 00:02:31.770
+Instead you need to replace one with the word one.
+
+00:02:33.090 --> 00:02:39.360
+Also an identifier cannot include whitespace so you cannot have an identifier like first space name
+
+00:02:39.360 --> 00:02:39.650
+.
+
+00:02:39.810 --> 00:02:47.130
+It has to be one word and identifier cannot be a reserve keyword like in that you saw earlier.
+
+00:02:47.130 --> 00:02:52.950
+If you're desperate to use a word that coincidentally clashes with one of the C-sharp keywords you can
+
+00:02:52.950 --> 00:02:55.680
+Perfect's that with the at sign.
+
+00:02:55.830 --> 00:03:00.180
+And finally as a recommendation always use meaningful names.
+
+00:03:00.180 --> 00:03:04.670
+For example avoid a name like F and instead use first name.
+
+00:03:04.680 --> 00:03:09.400
+This way your code will be more readable more maintainable and cleaner and everybody will understand
+
+00:03:09.400 --> 00:03:13.730
+that in terms of naming convention.
+
+00:03:13.740 --> 00:03:19.870
+Here are three popular naming conventions that have been around in the C language family.
+
+00:03:19.890 --> 00:03:27.810
+We've got camel case Pasko case and Hungarian notation with camel case as you see I have bolded here
+
+00:03:27.810 --> 00:03:28.100
+.
+
+00:03:28.140 --> 00:03:34.110
+The first letter of the first word is Laura case and the first letter of every word after it has to
+
+00:03:34.110 --> 00:03:41.610
+be upper case with Pasko case the first letter of every word has to be all uppercase with Hungarian
+
+00:03:41.610 --> 00:03:46.710
+Notation prefixed the name of a variable with the data type it uses.
+
+00:03:46.710 --> 00:03:49.720
+So here SDR represents a string.
+
+00:03:50.200 --> 00:03:57.030
+Angelia notation is not used in C Sharp and I have noticed programmers coming from C or C++ might ground
+
+00:03:57.300 --> 00:03:58.560
+use that in their code.
+
+00:03:58.950 --> 00:04:04.140
+If you're one of them I highly recommend you not to use Hungarian notation because C-Sharp developers
+
+00:04:04.140 --> 00:04:07.730
+are not used to that and they don't like to see Hungarian notation in the code.
+
+00:04:07.770 --> 00:04:10.420
+It makes your code look a little bit ugly.
+
+00:04:10.470 --> 00:04:12.570
+So in C-sharp to name your local variables.
+
+00:04:12.600 --> 00:04:14.230
+Use camel case.
+
+00:04:14.230 --> 00:04:20.010
+So as you see here the first letter of the first word is lowercase and if we had more words here in
+
+00:04:20.010 --> 00:04:27.300
+the identifier the first letter of every word had to be uppercase for constants use Pascal case.
+
+00:04:27.300 --> 00:04:33.210
+So here you see I've got a constant here constant integer and the first letter of every word is uppercase
+
+00:04:33.210 --> 00:04:34.440
+.
+
+00:04:34.440 --> 00:04:38.980
+Here is the list of most commonly used primitive types in C-sharp.
+
+00:04:39.000 --> 00:04:44.250
+In fact the actual list is slightly bigger than this but I deliberately decided not to include those
+
+00:04:44.250 --> 00:04:47.050
+data types because they're hardly ever used.
+
+00:04:47.070 --> 00:04:51.150
+In fact they are there for interoperability with other languages.
+
+00:04:51.210 --> 00:04:54.710
+I personally over the past 12 years off me coding in C-sharp.
+
+00:04:54.810 --> 00:04:56.160
+I've hardly ever used them.
+
+00:04:56.280 --> 00:04:57.500
+In fact never.
+
+00:04:57.630 --> 00:05:02.500
+So I decided not to confuse you with too much details that you don't need in the next slide.
+
+00:05:02.520 --> 00:05:06.210
+I've got a link here in case you want to learn about the other primitive types.
+
+00:05:06.270 --> 00:05:08.460
+So let's take a look at the table here.
+
+00:05:08.460 --> 00:05:12.210
+On the flip side I have divided this data types into four categories.
+
+00:05:12.610 --> 00:05:17.460
+Integral numbers real numbers character and boolean.
+
+00:05:17.460 --> 00:05:21.640
+This column shows the C-sharp data types and these are C-Sharp keywords.
+
+00:05:22.020 --> 00:05:25.240
+Note that the Shoki words are always lower.
+
+00:05:25.350 --> 00:05:30.840
+Each of these C-Sharp keywords or C-Sharp types maps to a type in dot net framework which is displayed
+
+00:05:30.840 --> 00:05:36.290
+in this column so these types are part of the dot net framework.
+
+00:05:36.600 --> 00:05:42.150
+And when you compile your application the compiler internally would translate the C-sharp keyword you
+
+00:05:42.150 --> 00:05:46.370
+use your to equivalent of that type.
+
+00:05:46.410 --> 00:05:50.540
+The third column here shows the number of bytes each data type uses.
+
+00:05:50.600 --> 00:05:55.110
+I have listed the data types from the smallest to the largest in each category.
+
+00:05:55.290 --> 00:05:58.470
+So in the category of integral number as you see byte is the smallest.
+
+00:05:58.470 --> 00:06:05.610
+It takes only one byte as long as the largest and it takes eight bytes the more bytes we have the more
+
+00:06:05.610 --> 00:06:06.690
+storage we have.
+
+00:06:06.870 --> 00:06:09.120
+And we can store in larger numbers.
+
+00:06:09.300 --> 00:06:15.000
+You don't really have to memorize the range of each data type but remember byte can store a value between
+
+00:06:15.000 --> 00:06:17.180
+0 to 255.
+
+00:06:17.370 --> 00:06:24.210
+Short can store a value between minus thirty two thousand two plus thirty two thousand integer can store
+
+00:06:24.210 --> 00:06:30.120
+a value of between minus two billion two plus two billion and long is even bigger than that in terms
+
+00:06:30.120 --> 00:06:30.840
+of real numbers.
+
+00:06:30.840 --> 00:06:32.460
+We have three data types.
+
+00:06:32.460 --> 00:06:39.160
+Float double and decimal float maps to the single type in that framework and it takes four bytes.
+
+00:06:39.360 --> 00:06:42.320
+And as you see it can store a very large number.
+
+00:06:42.480 --> 00:06:48.450
+Double is twice as big so it uses 8 bytes and decimal uses 16 bytes.
+
+00:06:48.500 --> 00:06:52.260
+The more precision you need the bigger data type you use.
+
+00:06:52.350 --> 00:06:57.360
+We also have character which is represented by Charke keyword and it's two bytes.
+
+00:06:57.690 --> 00:07:00.190
+So characters in C-sharp are Unicode.
+
+00:07:00.450 --> 00:07:05.770
+And finally we have bool which represents boolean which can be either true or false.
+
+00:07:06.060 --> 00:07:10.500
+In case you want to learn more about the other data types that I told you they're not really used.
+
+00:07:10.560 --> 00:07:15.740
+You can simply go to Google and search for C-Sharp built in types and the first page is the MSDE and
+
+00:07:15.750 --> 00:07:20.640
+page that lists all the primitive types in SUCIA.
+
+00:07:20.760 --> 00:07:25.230
+Most of these data types are pretty straight forward but there is something tricky about real numbers
+
+00:07:26.060 --> 00:07:26.570
+in this table.
+
+00:07:26.580 --> 00:07:29.580
+I have listed the data types we have for real numbers.
+
+00:07:29.640 --> 00:07:31.470
+Load double and decimal.
+
+00:07:31.740 --> 00:07:37.690
+I've highlighted double because that's the default data type used by C-Sharp compiler.
+
+00:07:37.830 --> 00:07:39.450
+When you're using real numbers.
+
+00:07:39.960 --> 00:07:46.650
+So if you want to declare a float you need to explicitly tell the compiler to treat the number you have
+
+00:07:46.920 --> 00:07:47.760
+as a float.
+
+00:07:47.760 --> 00:07:49.010
+Here is an example.
+
+00:07:49.020 --> 00:07:50.530
+I've declared a float.
+
+00:07:50.550 --> 00:07:53.350
+Call it number assign it one point to.
+
+00:07:53.490 --> 00:08:00.000
+Here I have either the suffix f and that is to tell the compiler to treat this number as a float.
+
+00:08:00.060 --> 00:08:07.080
+If I didn't have this F here compiler would think 1.2 is a double because double is the default data
+
+00:08:07.080 --> 00:08:08.580
+type for real numbers.
+
+00:08:08.680 --> 00:08:13.950
+And of course I cannot assign a double number into a float so the program would not comply.
+
+00:08:14.490 --> 00:08:15.980
+Same applies to decimals.
+
+00:08:16.170 --> 00:08:23.050
+So if you want to declare a decimal you need to add the suffix M at the end of the number in the jar
+
+00:08:23.070 --> 00:08:23.120
+.
+
+00:08:23.120 --> 00:08:28.950
+We also have a few other types which are not considered primitive types and there are string array ino
+
+00:08:29.010 --> 00:08:30.250
+and class.
+
+00:08:30.270 --> 00:08:32.720
+You'll learn more about them throughout this course.
+
+00:08:33.180 --> 00:08:35.690
+OK that's it for this lecture in the next lecture.
+
+00:08:35.700 --> 00:08:38.570
+We're going to talk about the concept of overflowing.
+
+00:08:38.610 --> 00:08:40.640
+I hope you enjoyed this lecture and thank you for watching

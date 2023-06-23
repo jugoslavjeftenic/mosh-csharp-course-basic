@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00:03.920 --> 00:00:07.130
+OK now let's talk about the concept of overflowing.
+
+00:00:07.770 --> 00:00:14.140
+You have declared a variable of type byte code number and assign it to 255.
+
+00:00:14.220 --> 00:00:20.170
+As I told you earlier in the slide 255 is the largest value you can store in a byte.
+
+00:00:20.200 --> 00:00:27.430
+Now in the next line I'm increasing the value of number by 1 and trying to store 256 in the number.
+
+00:00:27.540 --> 00:00:32.730
+But if you compile the application and display number on the console you'll see 0.
+
+00:00:33.360 --> 00:00:35.540
+And this is what we call overflowing.
+
+00:00:35.580 --> 00:00:41.860
+So we have exceeded the boundary of the byte data type in C-sharp by default.
+
+00:00:41.880 --> 00:00:48.930
+We don't have overflow checking which means we can modify the value of a viable add runtime and if we
+
+00:00:48.930 --> 00:00:54.690
+go beyond the boundary of it's underlying data type we will get overflow.
+
+00:00:54.720 --> 00:00:57.370
+Now sometimes this is not desirable in your application.
+
+00:00:57.480 --> 00:00:59.270
+You want to stop water flowing.
+
+00:00:59.550 --> 00:01:04.280
+If that's the case you need to use the check Keyworth.
+
+00:01:04.320 --> 00:01:05.680
+So here is how it works.
+
+00:01:05.720 --> 00:01:11.970
+You have to check key word followed by curly braces which indicate the code block and inside that block
+
+00:01:12.120 --> 00:01:18.480
+we have the variable declaration and any kind of Earth mining operations with this code overflow will
+
+00:01:18.480 --> 00:01:20.160
+not happen at runtime.
+
+00:01:20.220 --> 00:01:25.820
+Instead an exception will be thrown and the program will crash unless you handle the exception.
+
+00:01:26.250 --> 00:01:31.830
+The topic of exceptions is an advanced topic and I've covered it in my C# advanced course.
+
+00:01:31.830 --> 00:01:37.350
+For now all I want you to know is that if you use the check keyword overflow a lot happen and instead
+
+00:01:37.530 --> 00:01:40.110
+the program will throw an exception.
+
+00:01:40.140 --> 00:01:42.340
+Now do we really need that in reality.
+
+00:01:42.600 --> 00:01:46.790
+Honestly I have never ever ever came across this situation.
+
+00:01:47.160 --> 00:01:52.190
+Because if I was concerned that in this case my number variable would overflow.
+
+00:01:52.290 --> 00:01:57.630
+I would just simply use the short data type instead of byte but I decided to include the concept of
+
+00:01:57.630 --> 00:02:02.710
+overflowing because I wanted my C Sharp course to be comprehensive So just be aware of that.
+
+00:02:02.730 --> 00:02:07.860
+In case you hear about overflowing summer but you're probably not going to use that in the real world
+
+00:02:08.630 --> 00:02:11.170
+in the next lecture we're going to talk about the concept of scope

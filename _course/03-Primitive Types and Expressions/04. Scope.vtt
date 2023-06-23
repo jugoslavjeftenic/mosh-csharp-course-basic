@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:03.900 --> 00:00:11.130
+OK let's talk about the concept of scope what is the scope scope is where a viable or a constant has
+
+00:00:11.130 --> 00:00:14.100
+meaning and is accessible.
+
+00:00:14.100 --> 00:00:15.810
+Take a look at this block of code here.
+
+00:00:15.840 --> 00:00:20.070
+As you know a block is indicated by curly braces.
+
+00:00:20.100 --> 00:00:22.120
+Here we have three blocks of code.
+
+00:00:22.320 --> 00:00:27.710
+Here's one here's another and here's the last one in the first block.
+
+00:00:27.750 --> 00:00:34.230
+I've got a variable called A and A is accessible anywhere inside this block or any of its child blocks
+
+00:00:34.230 --> 00:00:35.850
+.
+
+00:00:35.850 --> 00:00:42.330
+If I go out of this block and try to access a the program will not compile the same rule applies to
+
+00:00:42.330 --> 00:00:43.360
+other variables.
+
+00:00:43.590 --> 00:00:45.930
+So let's take a look at this block here.
+
+00:00:45.990 --> 00:00:50.840
+B is meaningful anywhere inside this block or any of his children.
+
+00:00:50.940 --> 00:00:56.060
+If I go outside this block and try to access B I'm going to get a compile time error.
+
+00:00:56.710 --> 00:00:58.540
+Ok I think that's enough theory for now.
+
+00:00:58.710 --> 00:01:01.550
+Let's open our visual studio and do some coding.

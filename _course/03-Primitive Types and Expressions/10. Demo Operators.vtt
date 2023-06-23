@@ -1,0 +1,289 @@
+WEBVTT
+
+00:00:01.500 --> 00:00:05.050
+OK let's start with the Earth mining operators first.
+
+00:00:05.160 --> 00:00:14.220
+So I defined two variables a cost ten because three let's add them together and display the results
+
+00:00:14.220 --> 00:00:20.270
+in the con..
+
+00:00:20.430 --> 00:00:22.620
+That's pretty easy right.
+
+00:00:22.620 --> 00:00:24.270
+Run the application.
+
+00:00:24.330 --> 00:00:26.990
+So the result is 13.
+
+00:00:27.030 --> 00:00:29.120
+Now let's take a look at division.
+
+00:00:29.340 --> 00:00:35.990
+So I replaced the ADD operator weight division.
+
+00:00:36.240 --> 00:00:39.170
+The result is three.
+
+00:00:39.180 --> 00:00:47.970
+The interesting thing here is because both a and b are integers the result of the division ends up being
+
+00:00:48.120 --> 00:00:52.530
+an integer if you like a floating point number as the result of the division.
+
+00:00:52.560 --> 00:00:56.110
+You need to cast both these numbers to a float.
+
+00:00:56.340 --> 00:00:56.820
+So
+
+00:01:00.900 --> 00:01:06.370
+like this knife you're on the application.
+
+00:01:06.960 --> 00:01:12.360
+The result is a floating point number.
+
+00:01:12.360 --> 00:01:15.810
+Now let's look at the more tricky example.
+
+00:01:17.850 --> 00:01:22.950
+Let's say see is three B's two and A's 1.
+
+00:01:23.130 --> 00:01:28.560
+I want to show you the concept of operator precedence.
+
+00:01:29.340 --> 00:01:33.370
+So if I type A plus B times c..
+
+00:01:34.250 --> 00:01:39.520
+What do you expect the result to be from a mathematical perspective.
+
+00:01:39.630 --> 00:01:41.900
+B should be multiplied by C first.
+
+00:01:42.030 --> 00:01:44.600
+Which means two times three equals six.
+
+00:01:44.790 --> 00:01:47.040
+And then it should be added to 1.
+
+00:01:47.130 --> 00:01:49.570
+So the result should be 7.
+
+00:01:49.650 --> 00:01:53.040
+Let's run the application.
+
+00:01:53.430 --> 00:01:56.830
+So C-Sharp behaves exactly as what we expected.
+
+00:01:57.420 --> 00:02:04.350
+So multiply or division operators have higher precedence than add or subtract if you like to change
+
+00:02:04.350 --> 00:02:05.140
+the precedence.
+
+00:02:05.220 --> 00:02:07.150
+You can do so by using parenthesis.
+
+00:02:07.380 --> 00:02:14.690
+So in this case if you would like to have a and b added together first and then multiplied by C.
+
+00:02:14.730 --> 00:02:16.550
+This is how we would achieve that.
+
+00:02:16.710 --> 00:02:21.750
+In this case the result would be 9.
+
+00:02:21.750 --> 00:02:24.340
+There you go.
+
+00:02:24.980 --> 00:02:25.300
+OK.
+
+00:02:25.310 --> 00:02:28.530
+Now let's take a look at comparison operators.
+
+00:02:28.530 --> 00:02:36.190
+So let's get rid of C here and instead see if a is greater than B.
+
+00:02:36.210 --> 00:02:39.820
+Very simple example right.
+
+00:02:39.960 --> 00:02:41.860
+The result is false.
+
+00:02:41.880 --> 00:02:48.510
+So what I want you to know here is the result of the comparison expression is always a boolean value
+
+00:02:48.660 --> 00:02:50.680
+which is true or false.
+
+00:02:50.750 --> 00:02:53.020
+We can't test for equality.
+
+00:02:53.040 --> 00:02:54.940
+So double equal sign.
+
+00:02:55.290 --> 00:02:57.330
+In this case a is not equal to be.
+
+00:02:57.330 --> 00:02:58.800
+So the result should be false
+
+00:02:58.800 --> 00:03:04.500
+.
+
+00:03:04.500 --> 00:03:07.140
+Now let's see the not equal operator.
+
+00:03:07.590 --> 00:03:11.840
+So simply have an exclamation mark here followed by an equal sign.
+
+00:03:11.940 --> 00:03:17.760
+In this case because A is not equal to be the result should be true.
+
+00:03:18.150 --> 00:03:20.310
+OK now let me show you a more tricky example
+
+00:03:20.310 --> 00:03:27.440
+.
+
+00:03:27.540 --> 00:03:29.590
+What do you expect here.
+
+00:03:29.760 --> 00:03:36.540
+Well first this is the NOT operator which is applied on Boolean values or boolean expressions.
+
+00:03:36.720 --> 00:03:38.950
+In this case this is a boolean expression.
+
+00:03:39.480 --> 00:03:44.440
+And as you saw earlier it was true because A is not equal to be.
+
+00:03:44.550 --> 00:03:46.560
+So we played the NOT operator to that.
+
+00:03:46.650 --> 00:03:49.140
+And the result ends up being false.
+
+00:03:49.170 --> 00:03:53.920
+Let's run the application.
+
+00:03:54.510 --> 00:04:00.750
+So we got false here but this code is not easy to understand or easy to read because here we have two
+
+00:04:00.780 --> 00:04:04.540
+negatives one negative and two negative.
+
+00:04:04.540 --> 00:04:09.210
+And for us humans to be negative is hard to comprehend.
+
+00:04:09.270 --> 00:04:13.030
+Two negatives always equal to 1 positive.
+
+00:04:13.050 --> 00:04:19.110
+So in your program if you end up in situations where you have two negatives make sure to always inverse
+
+00:04:19.110 --> 00:04:20.350
+them with one positive.
+
+00:04:20.490 --> 00:04:25.830
+So in that case I can get rid of the first negative and convert the second negative to a positive like
+
+00:04:25.830 --> 00:04:26.370
+that.
+
+00:04:26.460 --> 00:04:29.970
+And we will get the same result which is false.
+
+00:04:29.970 --> 00:04:33.340
+Now let's take a look at logical operators.
+
+00:04:33.540 --> 00:04:35.940
+So I create another variable here.
+
+00:04:36.020 --> 00:04:47.790
+VRC because thery want to change that to see greater than B and C greater than 8.
+
+00:04:48.110 --> 00:04:49.750
+What do we expect here as the result.
+
+00:04:49.980 --> 00:04:52.340
+Well C is greater than B.
+
+00:04:52.410 --> 00:04:54.960
+So the result of that expression is true.
+
+00:04:55.530 --> 00:04:57.320
+Also C is greater than a.
+
+00:04:57.360 --> 00:04:59.800
+So the result of that expression is true as well.
+
+00:05:00.120 --> 00:05:06.100
+And here we have the and operator so true and true equals to true.
+
+00:05:06.450 --> 00:05:10.250
+Let's run the application.
+
+00:05:10.290 --> 00:05:12.400
+There you go.
+
+00:05:12.410 --> 00:05:17.190
+Now let's make a tiny change here.
+
+00:05:17.190 --> 00:05:25.860
+So this time because we know C is not equal to a this expression evaluates to false true and false results
+
+00:05:25.920 --> 00:05:27.080
+in false.
+
+00:05:27.270 --> 00:05:31.560
+Let's run the application.
+
+00:05:31.560 --> 00:05:35.040
+So we got false.
+
+00:05:35.040 --> 00:05:37.560
+Now let's see the effect of the OR operator.
+
+00:05:37.560 --> 00:05:41.060
+So I got to replace that and with or.
+
+00:05:41.120 --> 00:05:42.990
+Which is double vertical line.
+
+00:05:43.490 --> 00:05:47.670
+In this case that is true or false.
+
+00:05:47.820 --> 00:05:52.390
+The result ends up being true.
+
+00:05:54.500 --> 00:05:56.840
+And of course we can apply and not operator here.
+
+00:05:56.850 --> 00:05:57.810
+As you saw earlier
+
+00:06:00.510 --> 00:06:06.080
+which changes to true to false.
+
+00:06:06.150 --> 00:06:09.920
+Now this expression doesn't really look easy to understand.
+
+00:06:10.020 --> 00:06:15.570
+It's just purely for demonstration of how we can combine different operators and make up more complicated
+
+00:06:15.570 --> 00:06:16.680
+expressions.
+
+00:06:16.710 --> 00:06:18.250
+OK that's it for this lecture.
+
+00:06:18.360 --> 00:06:19.170
+I hope you enjoyed it.
+
+00:06:19.200 --> 00:06:20.210
+And thank you for watching

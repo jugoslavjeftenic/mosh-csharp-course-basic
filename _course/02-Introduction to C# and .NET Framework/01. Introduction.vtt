@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:02.250 --> 00:00:07.860
+OK so this is the very first section of this course in this section I'm going to start by teaching you
+
+00:00:08.070 --> 00:00:10.380
+the very basics of C-sharp.
+
+00:00:10.380 --> 00:00:15.120
+One of the questions that a lot of beginners ask is What is the difference between C-Sharp and dot net
+
+00:00:15.120 --> 00:00:15.520
+.
+
+00:00:15.540 --> 00:00:17.890
+So that's the first thing I'm going to answer here.
+
+00:00:18.120 --> 00:00:23.850
+Next I'm going to talk about seal our or Common Language Runtime which is the runtime environment or
+
+00:00:24.000 --> 00:00:26.290
+the applications.
+
+00:00:26.310 --> 00:00:31.590
+Next I'm going to talk about the architecture of Dot Net Applications and as part of this.
+
+00:00:31.680 --> 00:00:37.920
+I'm going to introduce you to concepts such as classes name spaces and assemblies.
+
+00:00:37.920 --> 00:00:41.440
+And finally I will show you all these concepts in action.
+
+00:00:41.520 --> 00:00:46.740
+I'm going to introduce you to the very basics of Visual Studio and write a very simple C Sharp application
+
+00:00:47.010 --> 00:00:51.930
+so you can see classes name spaces and methods in action.
+
+00:00:51.930 --> 00:00:53.050
+I hope you enjoyed this section.
+
+00:00:53.070 --> 00:00:54.710
+And let's get started.

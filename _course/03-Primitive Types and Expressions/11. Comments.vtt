@@ -1,0 +1,70 @@
+WEBVTT
+
+00:00:02.890 --> 00:00:04.900
+OK so we got to comment.
+
+00:00:05.450 --> 00:00:12.970
+A comment is text that we put in our code to improve its readability and maintainability in C-sharp
+
+00:00:12.990 --> 00:00:15.530
+we have two ways to write comments.
+
+00:00:15.780 --> 00:00:20.870
+If a comment is only a single line you can prefix a comment with double slash.
+
+00:00:21.150 --> 00:00:27.240
+But if your comment is longer and it's multiple lines you need to started with Slash start and then
+
+00:00:27.240 --> 00:00:30.060
+finish it with Star slash.
+
+00:00:30.260 --> 00:00:35.590
+This type of comment is more like the comments we used to write in C and C++ code.
+
+00:00:35.940 --> 00:00:41.660
+These days it's more conventional to write either a single line or multi-line comments prefixing word
+
+00:00:41.850 --> 00:00:42.900
+double slash.
+
+00:00:43.260 --> 00:00:50.220
+So in this example we can rewrite this multiline comment with double slash style like this.
+
+00:00:50.220 --> 00:00:56.850
+Now as a rule of thumb keep your comments to minimum use comments only when required and that's when
+
+00:00:56.850 --> 00:01:03.900
+explaining whys hows constraint and things like that do not explain what the code is doing.
+
+00:01:03.900 --> 00:01:08.360
+Your code should be so clean and straightforward that it doesn't need comment.
+
+00:01:08.490 --> 00:01:14.630
+If a comment explains just what the code is doing is redundant and a problem with redundant comments
+
+00:01:14.680 --> 00:01:16.120
+is we changed the code.
+
+00:01:16.260 --> 00:01:19.860
+But not everyone is very consistent in changing the comments.
+
+00:01:20.010 --> 00:01:25.620
+So after a while these comments become outdated and because they don't get compiled like the code there
+
+00:01:25.620 --> 00:01:27.180
+is no way to validate them.
+
+00:01:27.230 --> 00:01:29.960
+And after a while they become useless.
+
+00:01:30.240 --> 00:01:36.060
+So again keep them to a minimum and explain why's hows and constraints that you had at the time you
+
+00:01:36.060 --> 00:01:36.830
+wrote the code.
+
+00:01:36.960 --> 00:01:41.430
+So the next person who is reading your code knows the reason why you wrote the code.
+
+00:01:41.450 --> 00:01:41.940
+That's way
