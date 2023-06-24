@@ -1,6 +1,12 @@
-﻿namespace t04_03_Classes
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace t04_03_Classes
 {
-    public class Pearson
+    internal class Pearson
     {
         public string? FirstName;
         public string? LastName;

@@ -2,7 +2,6 @@
 
 namespace t04_03_Classes
 {
-
     internal class Program
     {
         static void Main(string[] args)
