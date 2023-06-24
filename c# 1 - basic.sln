@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t03_10_Operators", "t03_10_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_03_Classes", "t04_03_Classes\t04_03_Classes.csproj", "{450D3F71-7D1F-4A95-B63B-AB9D4C0F3B87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_06_Arrays", "t04_06_Arrays\t04_06_Arrays.csproj", "{C699D9BA-BD9C-4FF0-A845-BD30C4058996}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{450D3F71-7D1F-4A95-B63B-AB9D4C0F3B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{450D3F71-7D1F-4A95-B63B-AB9D4C0F3B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{450D3F71-7D1F-4A95-B63B-AB9D4C0F3B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C699D9BA-BD9C-4FF0-A845-BD30C4058996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C699D9BA-BD9C-4FF0-A845-BD30C4058996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C699D9BA-BD9C-4FF0-A845-BD30C4058996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C699D9BA-BD9C-4FF0-A845-BD30C4058996}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
