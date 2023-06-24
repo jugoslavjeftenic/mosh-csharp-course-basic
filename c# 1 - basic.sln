@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_06_Arrays", "t04_06_Arr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_08_Strings", "t04_08_Strings\t04_08_Strings.csproj", "{66B80F0F-CBCB-4439-A98B-BBA56AE2B32A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_10_Enums", "t04_10_Enums\t04_10_Enums.csproj", "{9AC263F1-68A4-4D0C-B0C4-EAA734764365}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{66B80F0F-CBCB-4439-A98B-BBA56AE2B32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66B80F0F-CBCB-4439-A98B-BBA56AE2B32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66B80F0F-CBCB-4439-A98B-BBA56AE2B32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC263F1-68A4-4D0C-B0C4-EAA734764365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC263F1-68A4-4D0C-B0C4-EAA734764365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC263F1-68A4-4D0C-B0C4-EAA734764365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC263F1-68A4-4D0C-B0C4-EAA734764365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
