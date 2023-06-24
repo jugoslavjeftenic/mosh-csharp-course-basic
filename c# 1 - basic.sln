@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_10_Enums", "t04_10_Enum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_12_RefAndValTypesExample1", "t04_12_RefAndValTypesExample1\t04_12_RefAndValTypesExample1.csproj", "{DA720182-1BBE-4FF9-8C14-F151E106E03A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t04_13_RefAndValTypesExample2", "t04_13_RefAndValTypesExample2\t04_13_RefAndValTypesExample2.csproj", "{4506133A-752B-446E-8BF0-76D9A00EC97B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{DA720182-1BBE-4FF9-8C14-F151E106E03A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA720182-1BBE-4FF9-8C14-F151E106E03A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA720182-1BBE-4FF9-8C14-F151E106E03A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4506133A-752B-446E-8BF0-76D9A00EC97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4506133A-752B-446E-8BF0-76D9A00EC97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4506133A-752B-446E-8BF0-76D9A00EC97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4506133A-752B-446E-8BF0-76D9A00EC97B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
