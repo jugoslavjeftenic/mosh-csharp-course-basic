@@ -7,32 +7,32 @@
             // Write a program which takes two numbers from the console and displays the maximum of the two.
 
             Console.WriteLine("Please enter first number:");
-            if(!int.TryParse(Console.ReadLine(),out int num1))
+            if (!int.TryParse(Console.ReadLine(), out int num1))
             {
                 WrongInput();
             }
 
             Console.WriteLine("Please enter second number:");
-            if(!int.TryParse(Console.ReadLine(),out int num2))
+            if (!int.TryParse(Console.ReadLine(), out int num2))
             {
                 WrongInput();
             }
 
-            if(num1 < int.MinValue || num1 > int.MaxValue)
+            if (num1 < int.MinValue || num1 > int.MaxValue)
             {
                 WrongInput();
             }
 
-            if(num2 < int.MinValue || num1 > int.MaxValue)
+            if (num2 < int.MinValue || num1 > int.MaxValue)
             {
                 WrongInput();
             }
 
-            if(num1 > num2)
+            if (num1 > num2)
             {
                 Console.WriteLine("First number is greater then second number.");
             }
-            else if(num1 < num2)
+            else if (num1 < num2)
             {
                 Console.WriteLine("Second number is greater then first number.");
             }
