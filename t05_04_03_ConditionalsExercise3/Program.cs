@@ -37,6 +37,7 @@
                 Console.WriteLine("Your image has equal heigt and width.");
             }
         }
+
         internal static void WrongInput()
         {
             Console.WriteLine($"Wrong input. Please enter number between greater then 0.");
