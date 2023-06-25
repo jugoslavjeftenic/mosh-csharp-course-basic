@@ -34,7 +34,7 @@
             Console.WriteLine(price);
 
             var season = Season.Autmun;
-            switch(season)
+            switch (season)
             {
                 case Season.Autmun:
                     Console.WriteLine("It's autmun and a beutiful season.");
