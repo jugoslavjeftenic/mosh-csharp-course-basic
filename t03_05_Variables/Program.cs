@@ -11,7 +11,7 @@
             string firstName = "Bomba";
             bool isWorking = true;
             var isVariable = true;
-            const float Pi=3.14F;
+            const float Pi = 3.14F;
 
             Console.WriteLine(number);
             Console.WriteLine(count);
