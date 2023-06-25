@@ -24,12 +24,33 @@
             {
                 WrongInput();
             }
+
+            if (speedLimit < 10 || carSpeed < 0)
+            {
+                WrongInput();
+            }
         }
 
         internal static void WrongInput()
         {
-            Console.WriteLine($"Wrong input. Please enter number between greater then 0.");
+            Console.WriteLine("Wrong input. Please enter a valid number.");
             System.Environment.Exit(13);
+        }
+
+        internal static void CheckInputs(int speedLimit, int carSpeed)
+        {
+            if(speedLimit < 10)
+            {
+                Console.WriteLine($"Wrong input. Please enter a speed limit that is 10 or greater.");
+                System.Environment.Exit(13);
+            }
+
+            if(carSpeed < 1)
+            {
+                Console.WriteLine($"Wrong input. Please enter a speed limit that is 10 or greater.");
+                System.Environment.Exit(13);
+            }
+
         }
     }
 }

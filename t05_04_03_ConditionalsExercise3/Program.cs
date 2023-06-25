@@ -40,7 +40,7 @@
 
         internal static void WrongInput()
         {
-            Console.WriteLine($"Wrong input. Please enter number that is greater then 0.");
+            Console.WriteLine("Wrong input. Please enter number that is greater then 0.");
             System.Environment.Exit(13);
         }
     }
