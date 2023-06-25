@@ -18,16 +18,31 @@
             {
                 WrongInput();
             }
+            CheckInput(true, speedLimit);
 
             Console.WriteLine("Please enter a car speed:");
             if (!int.TryParse(Console.ReadLine(), out int carSpeed))
             {
                 WrongInput();
             }
+            CheckInput(false, carSpeed);
 
-            if (speedLimit < 10 || carSpeed < 0)
+            if (speedLimit >= carSpeed)
             {
-                WrongInput();
+                Console.WriteLine("Ok.");
+                System.Environment.Exit(0);
+            }
+            else
+            {
+                int aboveLimit = (carSpeed - speedLimit) / 5;
+                if (aboveLimit > 12)
+                {
+                    Console.WriteLine("Yor License is Suspended!");
+                }
+                else
+                {
+                    Console.WriteLine($"You got {aboveLimit} demerits for speeding!");
+                }
             }
         }
 
@@ -37,20 +52,19 @@
             System.Environment.Exit(13);
         }
 
-        internal static void CheckInputs(int speedLimit, int carSpeed)
+        internal static void CheckInput(bool limit, int speed)
         {
-            if(speedLimit < 10)
+            if (limit && speed < 10)
             {
-                Console.WriteLine($"Wrong input. Please enter a speed limit that is 10 or greater.");
+                Console.WriteLine("Please enter a speed limit that is 10 or greater.");
                 System.Environment.Exit(13);
             }
 
-            if(carSpeed < 1)
+            if (!limit && speed < 1)
             {
-                Console.WriteLine($"Wrong input. Please enter a speed limit that is 10 or greater.");
+                Console.WriteLine("Please enter a speed that is greater then 0.");
                 System.Environment.Exit(13);
             }
-
         }
     }
 }
