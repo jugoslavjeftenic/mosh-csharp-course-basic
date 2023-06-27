@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_08_IterationsWhileLoop"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_09_RandomClass", "t05_09_RandomClass\t05_09_RandomClass.csproj", "{17129B1C-1ACE-4EB5-8024-571DCD348E8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_12_01_ControlFlowExercise1", "t05_12_01_ControlFlowExercise1\t05_12_01_ControlFlowExercise1.csproj", "{1B0D428C-9DBC-49AE-A92A-34F188F02BAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{17129B1C-1ACE-4EB5-8024-571DCD348E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17129B1C-1ACE-4EB5-8024-571DCD348E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17129B1C-1ACE-4EB5-8024-571DCD348E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0D428C-9DBC-49AE-A92A-34F188F02BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0D428C-9DBC-49AE-A92A-34F188F02BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0D428C-9DBC-49AE-A92A-34F188F02BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0D428C-9DBC-49AE-A92A-34F188F02BAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
