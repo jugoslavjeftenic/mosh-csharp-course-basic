@@ -23,21 +23,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t04_12_RefAndValTypesExampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t04_13_RefAndValTypesExample2", "t04_13_RefAndValTypesExample2\t04_13_RefAndValTypesExample2.csproj", "{4506133A-752B-446E-8BF0-76D9A00EC97B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_03_Conditionals", "t05_03_Conditionals\t05_03_Conditionals.csproj", "{57C7B3E8-2ED7-42DC-A51B-91F27F3962A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_03_Conditionals", "t05_03_Conditionals\t05_03_Conditionals.csproj", "{57C7B3E8-2ED7-42DC-A51B-91F27F3962A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_04_01_ConditionalsExercise1", "t05_04_01_ConditionalsExercise1\t05_04_01_ConditionalsExercise1.csproj", "{00E2E78F-BB6E-4232-920D-A7942C6E9FD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_04_01_ConditionalsExercise1", "t05_04_01_ConditionalsExercise1\t05_04_01_ConditionalsExercise1.csproj", "{00E2E78F-BB6E-4232-920D-A7942C6E9FD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_04_02_ConditionalsExercise2", "t05_04_02_ConditionalsExercise2\t05_04_02_ConditionalsExercise2.csproj", "{A7F3B30B-82AE-4331-82F1-922519F47EB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_04_02_ConditionalsExercise2", "t05_04_02_ConditionalsExercise2\t05_04_02_ConditionalsExercise2.csproj", "{A7F3B30B-82AE-4331-82F1-922519F47EB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_04_03_ConditionalsExercise3", "t05_04_03_ConditionalsExercise3\t05_04_03_ConditionalsExercise3.csproj", "{61C67071-C71F-493A-80B4-881653C127C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_04_03_ConditionalsExercise3", "t05_04_03_ConditionalsExercise3\t05_04_03_ConditionalsExercise3.csproj", "{61C67071-C71F-493A-80B4-881653C127C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_04_04_ConditionalsExercise4", "t05_04_04_ConditionalsExercise4\t05_04_04_ConditionalsExercise4.csproj", "{8EBB5657-5DF6-4050-B109-3F8BC644CE8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_04_04_ConditionalsExercise4", "t05_04_04_ConditionalsExercise4\t05_04_04_ConditionalsExercise4.csproj", "{8EBB5657-5DF6-4050-B109-3F8BC644CE8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_06_IterationsForLoop", "t05_06_IterationsForLoop\t05_06_IterationsForLoop.csproj", "{1E55CFE6-6DE5-46C2-9FF3-46D67D778BAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_06_IterationsForLoop", "t05_06_IterationsForLoop\t05_06_IterationsForLoop.csproj", "{1E55CFE6-6DE5-46C2-9FF3-46D67D778BAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_07_IterationsForEachLoop", "t05_07_IterationsForEachLoop\t05_07_IterationsForEachLoop.csproj", "{526FC5DF-02E4-40AE-AC7A-C2B917CDB9D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_07_IterationsForEachLoop", "t05_07_IterationsForEachLoop\t05_07_IterationsForEachLoop.csproj", "{526FC5DF-02E4-40AE-AC7A-C2B917CDB9D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_08_IterationsWhileLoop", "t05_08_IterationsWhileLoop\t05_08_IterationsWhileLoop.csproj", "{11DCA759-C965-49A8-B248-1CE6B38CC530}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_08_IterationsWhileLoop", "t05_08_IterationsWhileLoop\t05_08_IterationsWhileLoop.csproj", "{11DCA759-C965-49A8-B248-1CE6B38CC530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_09_RandomClass", "t05_09_RandomClass\t05_09_RandomClass.csproj", "{17129B1C-1ACE-4EB5-8024-571DCD348E8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{11DCA759-C965-49A8-B248-1CE6B38CC530}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11DCA759-C965-49A8-B248-1CE6B38CC530}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11DCA759-C965-49A8-B248-1CE6B38CC530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17129B1C-1ACE-4EB5-8024-571DCD348E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17129B1C-1ACE-4EB5-8024-571DCD348E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17129B1C-1ACE-4EB5-8024-571DCD348E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17129B1C-1ACE-4EB5-8024-571DCD348E8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
