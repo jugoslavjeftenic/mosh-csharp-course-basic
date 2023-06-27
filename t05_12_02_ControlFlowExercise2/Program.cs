@@ -19,7 +19,7 @@
                 }
                 else if (input?.ToLower() == "ok")
                 {
-                    System.Environment.Exit(0);
+                    break;
                 }
                 else
                 {
