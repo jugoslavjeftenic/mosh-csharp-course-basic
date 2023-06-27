@@ -9,12 +9,12 @@
             // If the user guesses the number, display "You won"; otherwise, display "You lost".
             // (To make sure the program is behaving correctly, you can display the secret number on the console first.)
 
-            int random = new Random().Next(1, 100);
+            int random = new Random().Next(1, 10);
             int attempts = 4;
 
             while (attempts > 0)
             {
-                Console.Write("Guess a number or \"e\" to exit: ");
+                Console.Write("Guess a number or type \"e\" to exit: ");
                 var input = Console.ReadLine();
 
                 if (int.TryParse(input, out int number))
@@ -25,7 +25,11 @@
                         Console.WriteLine("You won");
                         System.Environment.Exit(0);
                     }
-                    Console.WriteLine($"Try guessing again (you have {attempts} attempts left).");
+                    if (attempts > 0)
+                    {
+                        Console.WriteLine($"You have {attempts} attempts left.");
+                    }
+                    Console.WriteLine();
                 }
                 else if (input?.Trim().ToLower() == "e")
                 {
