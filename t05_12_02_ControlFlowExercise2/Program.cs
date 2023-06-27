@@ -17,7 +17,7 @@
                     sum += number;
                     Console.WriteLine("Sum of numbers: " + sum);
                 }
-                else if (input?.ToLower() == "ok")
+                else if (input?.Trim().ToLower() == "ok")
                 {
                     break;
                 }
