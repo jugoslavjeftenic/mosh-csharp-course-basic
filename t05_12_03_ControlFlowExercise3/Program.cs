@@ -12,23 +12,28 @@
             {
                 Console.Write("Enter a number or \"ok\" to exit: ");
                 var input = Console.ReadLine();
+
                 if (int.TryParse(input, out int number))
                 {
-                    int[] numbers = new int[number];
-                    for(int i=0;i<numbers.Length; i++)
+                    Console.Clear();
+                    int factorial = number;
+                    int sum = number;
+
+                    while (factorial > 1)
                     {
-                        numbers[i] = number--;
-                        Console.WriteLine(numbers[i]);
+                        sum *= --factorial;
                     }
+
+                    Console.WriteLine($"{number}! = {sum}");
+                    Console.WriteLine();
                 }
-                //else if (input?.Trim().ToLower() == "ok")
-                else if (input?.ToLower() == "ok")
+                else if (input?.Trim().ToLower() == "ok")
                 {
                     break;
                 }
                 else
                 {
-                    Console.WriteLine("Wrong input. Enter a number or \"ok\" to exit: ");
+                    Console.WriteLine("Wrong input.");
                 }
             }
         }
