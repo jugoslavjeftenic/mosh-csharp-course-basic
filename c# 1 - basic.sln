@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_12_02_ControlFlowExerci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_12_03_ControlFlowExercise3", "t05_12_03_ControlFlowExercise3\t05_12_03_ControlFlowExercise3.csproj", "{6291E502-FD0C-41EE-ACFD-565B83709113}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_12_04_ControlFlowExercise4", "t05_12_04_ControlFlowExercise4\t05_12_04_ControlFlowExercise4.csproj", "{3A14536B-9C39-420C-895A-A3687EBF82E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_12_05_ControlFlowExercise5", "t05_12_05_ControlFlowExercise5\t05_12_05_ControlFlowExercise5.csproj", "{0F99A232-2FE9-473A-9A41-EE381232A0FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{6291E502-FD0C-41EE-ACFD-565B83709113}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6291E502-FD0C-41EE-ACFD-565B83709113}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6291E502-FD0C-41EE-ACFD-565B83709113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A14536B-9C39-420C-895A-A3687EBF82E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A14536B-9C39-420C-895A-A3687EBF82E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A14536B-9C39-420C-895A-A3687EBF82E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A14536B-9C39-420C-895A-A3687EBF82E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F99A232-2FE9-473A-9A41-EE381232A0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F99A232-2FE9-473A-9A41-EE381232A0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F99A232-2FE9-473A-9A41-EE381232A0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F99A232-2FE9-473A-9A41-EE381232A0FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
