@@ -39,17 +39,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_07_IterationsForEachLoo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_08_IterationsWhileLoop", "t05_08_IterationsWhileLoop\t05_08_IterationsWhileLoop.csproj", "{11DCA759-C965-49A8-B248-1CE6B38CC530}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_09_RandomClass", "t05_09_RandomClass\t05_09_RandomClass.csproj", "{17129B1C-1ACE-4EB5-8024-571DCD348E8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_09_RandomClass", "t05_09_RandomClass\t05_09_RandomClass.csproj", "{17129B1C-1ACE-4EB5-8024-571DCD348E8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_12_01_ControlFlowExercise1", "t05_12_01_ControlFlowExercise1\t05_12_01_ControlFlowExercise1.csproj", "{1B0D428C-9DBC-49AE-A92A-34F188F02BAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_12_01_ControlFlowExercise1", "t05_12_01_ControlFlowExercise1\t05_12_01_ControlFlowExercise1.csproj", "{1B0D428C-9DBC-49AE-A92A-34F188F02BAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_12_02_ControlFlowExercise2", "t05_12_02_ControlFlowExercise2\t05_12_02_ControlFlowExercise2.csproj", "{EE77CE04-5D26-43FF-8D89-8AC2622A31CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_12_02_ControlFlowExercise2", "t05_12_02_ControlFlowExercise2\t05_12_02_ControlFlowExercise2.csproj", "{EE77CE04-5D26-43FF-8D89-8AC2622A31CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_12_03_ControlFlowExercise3", "t05_12_03_ControlFlowExercise3\t05_12_03_ControlFlowExercise3.csproj", "{6291E502-FD0C-41EE-ACFD-565B83709113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_12_03_ControlFlowExercise3", "t05_12_03_ControlFlowExercise3\t05_12_03_ControlFlowExercise3.csproj", "{6291E502-FD0C-41EE-ACFD-565B83709113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_12_04_ControlFlowExercise4", "t05_12_04_ControlFlowExercise4\t05_12_04_ControlFlowExercise4.csproj", "{3A14536B-9C39-420C-895A-A3687EBF82E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_12_04_ControlFlowExercise4", "t05_12_04_ControlFlowExercise4\t05_12_04_ControlFlowExercise4.csproj", "{3A14536B-9C39-420C-895A-A3687EBF82E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t05_12_05_ControlFlowExercise5", "t05_12_05_ControlFlowExercise5\t05_12_05_ControlFlowExercise5.csproj", "{0F99A232-2FE9-473A-9A41-EE381232A0FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_12_05_ControlFlowExercise5", "t05_12_05_ControlFlowExercise5\t05_12_05_ControlFlowExercise5.csproj", "{0F99A232-2FE9-473A-9A41-EE381232A0FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t06_03_Arrays", "t06_03_Arrays\t06_03_Arrays.csproj", "{389F040B-8995-47B3-96C2-99F0D74D17F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{0F99A232-2FE9-473A-9A41-EE381232A0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F99A232-2FE9-473A-9A41-EE381232A0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F99A232-2FE9-473A-9A41-EE381232A0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389F040B-8995-47B3-96C2-99F0D74D17F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389F040B-8995-47B3-96C2-99F0D74D17F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389F040B-8995-47B3-96C2-99F0D74D17F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389F040B-8995-47B3-96C2-99F0D74D17F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
