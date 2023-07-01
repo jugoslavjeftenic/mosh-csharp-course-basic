@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Linq.Expressions;
 
 namespace t06_06_01_ArraysAndListsExercise1
 {
@@ -18,22 +19,33 @@ namespace t06_06_01_ArraysAndListsExercise1
             // until the user presses Enter(without supplying a name).
             // Depending on the number of names provided, display a message based on the above pattern.
 
-
+            var names = new List<String>();
 
             while (true)
             {
                 Console.Write("Enter a name: ");
-                var input = Console.ReadLine();
+                var input = Console.ReadLine()?.Trim();
 
-                if (input?.Trim() != "")
-                {
-                    Console.Clear();
-                    Console.WriteLine();
-                }
-                else
+                if (input == null || input.Length == 0)
                 {
                     break;
                 }
+                names.Add(input);
+            }
+
+            switch (names.Count)
+            {
+                case 0:
+                    break;
+                case 1:
+                    Console.WriteLine(names[0]);
+                    break;
+                case 2:
+                    Console.WriteLine($"{names[0]}, {names[1]}");
+                    break;
+                default:
+                    Console.WriteLine($"{names[0]}, {names[1]} [Other People: {names.Count - 2}]");
+                    break;
             }
         }
     }
