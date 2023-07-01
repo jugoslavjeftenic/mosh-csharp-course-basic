@@ -5,7 +5,7 @@ namespace t06_06_01_ArraysAndListsExercise1
 {
     internal class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             // When you post a message on Facebook, depending on the number of people who like your post,
             // Facebook displays different information.
