@@ -18,7 +18,23 @@ namespace t06_06_01_ArraysAndListsExercise1
             // until the user presses Enter(without supplying a name).
             // Depending on the number of names provided, display a message based on the above pattern.
 
-            Console.WriteLine("Hello, World!");
+
+
+            while (true)
+            {
+                Console.Write("Enter a name: ");
+                var input = Console.ReadLine();
+
+                if (input?.Trim() != "")
+                {
+                    Console.Clear();
+                    Console.WriteLine();
+                }
+                else
+                {
+                    break;
+                }
+            }
         }
     }
 }
