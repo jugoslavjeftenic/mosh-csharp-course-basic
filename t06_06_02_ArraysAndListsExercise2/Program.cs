@@ -13,7 +13,9 @@
 
             if (input?.Length > 0)
             {
-                string? reversedName = input.ToArray<char>().Reverse().ToString();
+                char[] charArray = input.ToCharArray();
+                Array.Reverse(charArray);
+                var reversedName = new string(charArray);
                 Console.WriteLine(reversedName);
             }
         }
