@@ -51,19 +51,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_12_04_ControlFlowExerci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t05_12_05_ControlFlowExercise5", "t05_12_05_ControlFlowExercise5\t05_12_05_ControlFlowExercise5.csproj", "{0F99A232-2FE9-473A-9A41-EE381232A0FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t06_03_Arrays", "t06_03_Arrays\t06_03_Arrays.csproj", "{389F040B-8995-47B3-96C2-99F0D74D17F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t06_03_Arrays", "t06_03_Arrays\t06_03_Arrays.csproj", "{389F040B-8995-47B3-96C2-99F0D74D17F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t06_05_Lists", "t06_05_Lists\t06_05_Lists.csproj", "{12D20456-5A2A-4146-9E0C-744AEC10A508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t06_05_Lists", "t06_05_Lists\t06_05_Lists.csproj", "{12D20456-5A2A-4146-9E0C-744AEC10A508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t06_06_01_ArraysAndListsExercise1", "t06_06_01_ArraysAndListsExercise1\t06_06_01_ArraysAndListsExercise1.csproj", "{CEECE727-17A4-4363-B919-3C4BA9B03E4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t06_06_01_ArraysAndListsExercise1", "t06_06_01_ArraysAndListsExercise1\t06_06_01_ArraysAndListsExercise1.csproj", "{CEECE727-17A4-4363-B919-3C4BA9B03E4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t06_06_02_ArraysAndListsExercise2", "t06_06_02_ArraysAndListsExercise2\t06_06_02_ArraysAndListsExercise2.csproj", "{27B9D569-203D-4B7D-9E4E-F6BEBD31AB20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t06_06_02_ArraysAndListsExercise2", "t06_06_02_ArraysAndListsExercise2\t06_06_02_ArraysAndListsExercise2.csproj", "{27B9D569-203D-4B7D-9E4E-F6BEBD31AB20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t06_06_03_ArraysAndListsExercise3", "t06_06_03_ArraysAndListsExercise3\t06_06_03_ArraysAndListsExercise3.csproj", "{C467D22B-99CA-4C9E-9B51-C7801A981455}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t06_06_03_ArraysAndListsExercise3", "t06_06_03_ArraysAndListsExercise3\t06_06_03_ArraysAndListsExercise3.csproj", "{C467D22B-99CA-4C9E-9B51-C7801A981455}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t06_06_04_ArraysAndListsExercise4", "t06_06_04_ArraysAndListsExercise4\t06_06_04_ArraysAndListsExercise4.csproj", "{EE0ACBD7-96EC-4D1A-8FAF-8472CB8A508D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t06_06_04_ArraysAndListsExercise4", "t06_06_04_ArraysAndListsExercise4\t06_06_04_ArraysAndListsExercise4.csproj", "{EE0ACBD7-96EC-4D1A-8FAF-8472CB8A508D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t06_06_05_ArraysAndListsExercise5", "t06_06_05_ArraysAndListsExercise5\t06_06_05_ArraysAndListsExercise5.csproj", "{458A10E3-838E-48C8-B9A6-D816A84D126D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t06_06_05_ArraysAndListsExercise5", "t06_06_05_ArraysAndListsExercise5\t06_06_05_ArraysAndListsExercise5.csproj", "{458A10E3-838E-48C8-B9A6-D816A84D126D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t07_02_DateTime", "t07_02_DateTime\t07_02_DateTime.csproj", "{5141FE8D-7815-4556-8819-16BBEC1266C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{458A10E3-838E-48C8-B9A6-D816A84D126D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{458A10E3-838E-48C8-B9A6-D816A84D126D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{458A10E3-838E-48C8-B9A6-D816A84D126D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5141FE8D-7815-4556-8819-16BBEC1266C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5141FE8D-7815-4556-8819-16BBEC1266C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5141FE8D-7815-4556-8819-16BBEC1266C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5141FE8D-7815-4556-8819-16BBEC1266C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
