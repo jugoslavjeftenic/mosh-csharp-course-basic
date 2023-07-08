@@ -9,7 +9,20 @@
             // If the time is valid, display "Ok"; otherwise, display "Invalid Time".
             // If the user doesn't provide any values, consider it as invalid time. 
 
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Enter a time value in the 24-hour time format (e.g. 19:00):");
+            var input = Console.ReadLine();
+
+            var ok = DateTime.TryParse(input, out var dt);
+
+            if (ok)
+            {
+                Console.WriteLine("Ok");
+                Console.WriteLine($"{dt:d MMMM, yyyy}");
+            }
+            else
+            {
+                Console.WriteLine("Invalid Time");
+            }
         }
     }
 }
