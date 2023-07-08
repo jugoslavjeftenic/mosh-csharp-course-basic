@@ -8,7 +8,6 @@
             // If the user simply presses Enter, without supplying an input, exit immediately;
             // otherwise, check to see if there are duplicates. If so, display "Duplicate" on the console.
 
-
             Console.WriteLine("Enter a few numbers separated by a hyphen (example \"5-1-7-8-5\"):");
             var input = Console.ReadLine();
 
