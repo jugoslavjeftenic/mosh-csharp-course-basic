@@ -31,7 +31,7 @@ namespace t09_04_DirectoryAndDirectoryInfo
             }
 
             // DirectoryInfo - instance method
-            var directoryInfo  = new DirectoryInfo(
+            var directoryInfo = new DirectoryInfo(
                 @"E:\SDK-github\course-mosh\c# 1 - basic\t09_04_DirectoryAndDirectoryInfo\CreatedDirectoryInfo");
             directoryInfo.Create();
             directoryInfo.GetFiles();
