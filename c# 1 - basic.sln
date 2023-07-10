@@ -73,17 +73,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t08_03_String", "t08_03_Str
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t08_04_SummarisingText", "t08_04_SummarisingText\t08_04_SummarisingText.csproj", "{6465A2A9-388A-4550-A8D5-4700082C2247}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t08_06_StringBuilder", "t08_06_StringBuilder\t08_06_StringBuilder.csproj", "{AE7326B3-5724-443C-98F4-56A4F21490D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t08_06_StringBuilder", "t08_06_StringBuilder\t08_06_StringBuilder.csproj", "{AE7326B3-5724-443C-98F4-56A4F21490D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t08_08_01_WorkingWithTextExercise1", "t08_08_01_WorkingWithTextExercise1\t08_08_01_WorkingWithTextExercise1.csproj", "{37677638-D42E-4DF7-99BA-BA2E7B8073DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t08_08_01_WorkingWithTextExercise1", "t08_08_01_WorkingWithTextExercise1\t08_08_01_WorkingWithTextExercise1.csproj", "{37677638-D42E-4DF7-99BA-BA2E7B8073DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t08_08_02_WorkingWithTextExercise2", "t08_08_02_WorkingWithTextExercise2\t08_08_02_WorkingWithTextExercise2.csproj", "{3F82DC3E-56E6-4A34-862A-FBA0061D558A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t08_08_02_WorkingWithTextExercise2", "t08_08_02_WorkingWithTextExercise2\t08_08_02_WorkingWithTextExercise2.csproj", "{3F82DC3E-56E6-4A34-862A-FBA0061D558A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t08_08_03_WorkingWithTextExercise3", "t08_08_03_WorkingWithTextExercise3\t08_08_03_WorkingWithTextExercise3.csproj", "{439B76F5-4EFA-42FB-8F3F-7E5CCDE273A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t08_08_03_WorkingWithTextExercise3", "t08_08_03_WorkingWithTextExercise3\t08_08_03_WorkingWithTextExercise3.csproj", "{439B76F5-4EFA-42FB-8F3F-7E5CCDE273A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t08_08_04_WorkingWithTextExercise4", "t08_08_04_WorkingWithTextExercise4\t08_08_04_WorkingWithTextExercise4.csproj", "{86A8C1C5-82B2-4F6E-A496-56EEE66B667D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t08_08_04_WorkingWithTextExercise4", "t08_08_04_WorkingWithTextExercise4\t08_08_04_WorkingWithTextExercise4.csproj", "{86A8C1C5-82B2-4F6E-A496-56EEE66B667D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t08_08_05_WorkingWithTextExercise5", "t08_08_05_WorkingWithTextExercise5\t08_08_05_WorkingWithTextExercise5.csproj", "{51DD1541-6F4C-40E0-BACF-1F1CC873A9CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t08_08_05_WorkingWithTextExercise5", "t08_08_05_WorkingWithTextExercise5\t08_08_05_WorkingWithTextExercise5.csproj", "{51DD1541-6F4C-40E0-BACF-1F1CC873A9CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t09_03_FileAndFileInfo", "t09_03_FileAndFileInfo\t09_03_FileAndFileInfo.csproj", "{C68A5F0F-C9B2-4B6C-B9C8-8E85D43137B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +257,10 @@ Global
 		{51DD1541-6F4C-40E0-BACF-1F1CC873A9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51DD1541-6F4C-40E0-BACF-1F1CC873A9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51DD1541-6F4C-40E0-BACF-1F1CC873A9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C68A5F0F-C9B2-4B6C-B9C8-8E85D43137B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68A5F0F-C9B2-4B6C-B9C8-8E85D43137B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68A5F0F-C9B2-4B6C-B9C8-8E85D43137B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68A5F0F-C9B2-4B6C-B9C8-8E85D43137B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
