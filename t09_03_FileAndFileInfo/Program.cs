@@ -9,7 +9,7 @@ namespace t09_03_FileAndFileInfo
             string originalFile = @"E:\SDK-github\course-mosh\c# 1 - basic\t09_03_FileAndFileInfo\CSharpRoadMap.pdf";
             string copyToFile = @"E:\SDK-github\course-mosh\c# 1 - basic\t09_03_FileAndFileInfo\CopyOfCSharpRoadMap.pdf";
 
-            File.Copy(originalFile, copyToFile,true);
+            File.Copy(originalFile, copyToFile, true);
             File.Delete(copyToFile);
 
             if (File.Exists(copyToFile))
