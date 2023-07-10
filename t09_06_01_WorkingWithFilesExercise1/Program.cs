@@ -8,7 +8,6 @@
 
             string textFile = @"E:\SDK-github\course-mosh\c# 1 - basic\t09_06_01_WorkingWithFilesExercise1\example.txt";
 
-
             if (File.Exists(textFile))
             {
                 string text = File.ReadAllText(textFile);
